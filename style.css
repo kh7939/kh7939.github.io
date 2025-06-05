@@ -60,7 +60,7 @@ li a::before{
 li a:hover::before{
 	width:100%;
 }
-.visit-btn{
+/* .visit-btn{
 	padding: 0.8rem 1.5rem;
 	border-radius: 3rem;
 	border: none;
@@ -74,7 +74,7 @@ li a:hover::before{
 }
 .visit-btn:hover{
 	transform: scale(1.03)
-}
+} */
 
 #menu-icon{
 	font-size: 2rem;
@@ -139,6 +139,7 @@ section{
 	font-size: 1.3rem;
 	text-wrap: nowrap;
 	transition: 0.2s ease-in-out;
+	color: black;
 }
 .btn:hover{
 	background-color: black;
@@ -150,6 +151,7 @@ section{
 }
 .socials i{
 	font-size: 2.5rem;
+	color: black;
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
 }
@@ -225,9 +227,7 @@ section{
 	padding: 3rem 2rem;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	text-align: left;
 	gap: 1rem;
 	border: 2px solid black;
 	border-radius: 3rem;
@@ -291,6 +291,17 @@ section{
 	position: relative;
 }
 .input i{
+	position: absolute;
+	font-size: 4rem;
+	top: 50%;
+	left: 10px;
+	transform: translate(50%, -50%);
+}
+
+.text-box{
+	position: relative;
+}
+.text-box i{
 	position: absolute;
 	font-size: 4rem;
 	top: 50%;
